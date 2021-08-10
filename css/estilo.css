@@ -18,8 +18,9 @@
   background-color: brown; }
 
 .gridFooter {
-  overflow-x: hidden;
-  background-color: #ecbcbc; }
+  margin-top: 2%;
+  background-color: #ecbcbc;
+  padding-bottom: 5%; }
 
 /*BACKGROUND*/
 header {
@@ -141,7 +142,6 @@ body .footer__copyright--font p {
   padding: 0%; }
 
 body {
-  overflow-x: hidden;
   background-image: linear-gradient(#faeee2, white, #faeee2); }
 
 /*CLASE 9*/
@@ -393,38 +393,7 @@ footer div h3 {
   /*FOOTER*/
   /*TEXTO*/
   .estiloFooter h5 {
-    text-align: left; }
-  /*GRIDS
-
-        .gridFooter {
-        display: grid;
-        grid-template-areas: 
-        "gridFooterTitulos1" 
-        "footerMail"
-        "gridFooterTitulos2"
-        "FooterRedes"
-        "gridFooterTitulos3"
-        "footerNews";
-        grid-template-rows: 20% 30% 20% 40% 20% 30%;}
-        
-        .gridFooterTitulos1{
-            grid-area: gridFooterTitulos1;}
-
-        .gridFooterTitulos2{
-            grid-area: gridFooterTitulos2;}
-        .gridFooterTitulos3{
-            grid-area: gridFooterTitulos3;}
-
-        .footerMail{
-            grid-area: footerMail;}
-        
-        .FooterRedes{
-            grid-area: FooterRedes;}
-
-        .footerNews{
-            grid-area: footerNews;}
-
-        */ }
+    text-align: left; } }
 
 /*DESKTOP*/
 @media only screen and (min-width: 768px) {
@@ -563,33 +532,6 @@ footer div h3 {
     text-align: center; }
   .FooterRedes h5 {
     text-align: center; }
-  /*GRIDS
-
-        .gridFooter {
-            display: grid;
-            grid-template-areas: 
-            "gridFooterTitulos1 gridFooterTitulos2 gridFooterTitulos3" 
-            "footerMail FooterRedes footerNews";
-            grid-template-columns: 33% 33% 33%;
-            grid-template-rows: 30% 30%;}
-            
-            .gridFooterTitulos1{
-                grid-area: gridFooterTitulos1;}
-    
-            .gridFooterTitulos2{
-                grid-area: gridFooterTitulos2;}
-
-            .gridFooterTitulos3{
-                grid-area: gridFooterTitulos3;}
-    
-            .footerMail{
-                grid-area: footerMail;}
-            
-            .FooterRedes{
-                grid-area: FooterRedes;}
-    
-            .footerNews{
-                grid-area: footerNews;} */
   /*FLEX*/
   .gridFooterTitulos3 {
     display: flex;

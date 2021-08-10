@@ -9,7 +9,6 @@
 } 
     
 body {
-    overflow-x: hidden;
     background-image: linear-gradient( rgb(250, 238, 226),rgb(255, 255, 255), rgb(250, 238, 226));}
 
 /*CLASE 9*/
@@ -321,42 +320,7 @@ body {
 /*FOOTER*/
         /*TEXTO*/
         .estiloFooter h5{
-            text-align: left;}
-
-                   
-        /*GRIDS
-
-        .gridFooter {
-        display: grid;
-        grid-template-areas: 
-        "gridFooterTitulos1" 
-        "footerMail"
-        "gridFooterTitulos2"
-        "FooterRedes"
-        "gridFooterTitulos3"
-        "footerNews";
-        grid-template-rows: 20% 30% 20% 40% 20% 30%;}
-        
-        .gridFooterTitulos1{
-            grid-area: gridFooterTitulos1;}
-
-        .gridFooterTitulos2{
-            grid-area: gridFooterTitulos2;}
-        .gridFooterTitulos3{
-            grid-area: gridFooterTitulos3;}
-
-        .footerMail{
-            grid-area: footerMail;}
-        
-        .FooterRedes{
-            grid-area: FooterRedes;}
-
-        .footerNews{
-            grid-area: footerNews;}
-
-        */
-        
-         
+            text-align: left;}  
 
 }
 
@@ -529,36 +493,8 @@ body {
             text-align: center;}
         .FooterRedes h5{
             text-align:center ;}
-
-        
             
-        /*GRIDS
 
-        .gridFooter {
-            display: grid;
-            grid-template-areas: 
-            "gridFooterTitulos1 gridFooterTitulos2 gridFooterTitulos3" 
-            "footerMail FooterRedes footerNews";
-            grid-template-columns: 33% 33% 33%;
-            grid-template-rows: 30% 30%;}
-            
-            .gridFooterTitulos1{
-                grid-area: gridFooterTitulos1;}
-    
-            .gridFooterTitulos2{
-                grid-area: gridFooterTitulos2;}
-
-            .gridFooterTitulos3{
-                grid-area: gridFooterTitulos3;}
-    
-            .footerMail{
-                grid-area: footerMail;}
-            
-            .FooterRedes{
-                grid-area: FooterRedes;}
-    
-            .footerNews{
-                grid-area: footerNews;} */
     
             
             /*FLEX*/
