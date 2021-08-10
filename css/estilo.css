@@ -17,6 +17,19 @@
   color: white;
   background-color: brown; }
 
+.gridFooter {
+  overflow-x: hidden;
+  background-color: #ecbcbc; }
+
+/*BACKGROUND*/
+header {
+  background-color: #ecbcbc; }
+
+.backgroundCarousel {
+  background-color: rgba(165, 42, 42, 0.637);
+  padding: 1% 10% 1% 10%;
+  margin: 1%; }
+
 .blog__titulo--tamanio {
   font-size: 400%;
   text-align: center; }
@@ -120,11 +133,6 @@ body {
 .carTitulo a {
   color: white; }
 
-.backgroundCarousel {
-  background-color: rgba(165, 42, 42, 0.637);
-  padding: 1% 10% 1% 10%;
-  margin: 1%; }
-
 /*HEADER*/
 /*LOGO*/
 .logo {
@@ -223,9 +231,6 @@ footer div h3 {
     font-size: 250%; }
   .subTitulo {
     font-size: 100%; }
-  /*BACKGROUND*/
-  header {
-    background-color: #ecbcbc; }
   /*GRID*/
   .gridHeader {
     display: grid;
@@ -373,11 +378,6 @@ footer div h3 {
   /*TEXTO*/
   .estiloFooter h5 {
     text-align: left; }
-  /*BACKGROUND*/
-  .gridFooter {
-    background-color: #ecbcbc;
-    padding-top: 5%;
-    padding-bottom: 50%; }
   /*GRIDS*/
   .gridFooter {
     display: grid;
@@ -405,11 +405,6 @@ footer div h3 {
   nav ul li a {
     font-size: 95%;
     margin-right: 10px; }
-  /*BACKGROUND*/
-  header {
-    background-color: #ecbcbc;
-    padding-top: 5px;
-    padding-bottom: 5px; }
   /*GRID*/
   .gridHeader {
     display: grid;
@@ -539,11 +534,6 @@ footer div h3 {
     text-align: center; }
   .FooterRedes h5 {
     text-align: center; }
-  /*BACKGROUND*/
-  .gridFooter {
-    background-color: #ecbcbc;
-    padding-top: 2%;
-    padding-bottom: 2%; }
   /*GRIDS*/
   .gridFooter {
     display: grid;
